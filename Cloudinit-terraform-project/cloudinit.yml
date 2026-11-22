@@ -1,0 +1,11 @@
+#cloud-config
+packages:
+  - nginx
+package_update: true
+
+runcmd:
+  - systemctl --now enable nginx
+
+
+
+  
